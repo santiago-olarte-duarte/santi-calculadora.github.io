@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+   background-color: black; 
+}
+#appBg {
+    height: 400px;
+    width: 310px;
+    border: 1px solid black;
+    border-radius: 8px;    
+}
+
+#appBg form {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0,0,0);
+}
+
+#appBg input[type=textfield]{
+    height: 100px;
+    width: 100%;
+    cursor: default;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    ;
+    color: white;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    
+}
+
+#appBg input[type=button], input[type=reset]{
+    width: 22%;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    ;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding: 18px;
+    margin: 5px 3px;
+    border: 0;
+    border-radius: 100%;
+    
+}
+
+#appBg .orange{
+    background-color: orange !important;
+    color: white !important;
+
+}
+
+#appBg .gray{
+    background-color: rgba(57, 57, 57, 0.705) !important;
+    color: white !important;
+
+}
+#appBg input[type=button].doble{
+    width: 47%;
+    border-radius: 22px;
+    
+}
+#appBg .gray2{
+    background-color: gray;
+    color: white !important;
+}
